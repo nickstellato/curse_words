@@ -1,0 +1,8 @@
+#!/usr/bin/env python2
+
+def enumerate_months():
+    months = ['January', 'February','March','April','May','June','July','August','September','October','November','December',]
+    num_months = list(enumerate(months, start=1))
+    print(num_months)
+
+enumerate_months()
